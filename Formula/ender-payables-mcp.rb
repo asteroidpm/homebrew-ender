@@ -1,30 +1,30 @@
-# ender-payables-mcp v0.1.0 — binaries hosted on GitHub Releases (interim);
+# ender-payables-mcp v0.2.0 — binaries hosted on GitHub Releases (interim);
 # dl.ender.com CDN is the eventual channel. Checksums match the published release assets.
 class EnderPayablesMcp < Formula
   desc "Ender public MCP server for creating payables (invoices) via the Ender API"
   homepage "https://docs.ender.com/customer-guides/public-api/mcp-server"
-  version "0.1.0"
+  version "0.2.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.1.0/ender-payables-mcp-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "fab319999c55b5ce6b6d20b464dc468ae11ccf114519aceeafa0db2c2aae96ce"
+      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.2.0/ender-payables-mcp-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a748ce4ecd45184459a48f3a11fe8d331e82e50c7d19bd3d91c114b2b2f2aa46"
     end
     on_intel do
-      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.1.0/ender-payables-mcp-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "24e5505ba2f8f1407f76aaedcec75bc4d3485f0a4206313f3e7bdf9403bec86d"
+      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.2.0/ender-payables-mcp-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8fa9d92d8c6f354780777dde0cb07d96285ad014ee437c37753bc05b55d6fb84"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.1.0/ender-payables-mcp-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "514edef90fc6b723ceb95644f967461d950d03ddf74269168195affd9159dc3a"
+      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.2.0/ender-payables-mcp-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a17c033743810ad7fa215504b7dce49b33a1fc4f80acdae5e2de0c7a3857b522"
     end
     on_intel do
-      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.1.0/ender-payables-mcp-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "647a52fba95025a5a54f6b001a67c30863ef2a72fa7e542b10226a83c4bb776a"
+      url "https://github.com/asteroidpm/homebrew-ender/releases/download/v0.2.0/ender-payables-mcp-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2abcdc776da7e024968dc0857f0314e884adfb5c4169918e01a34a3e6bf298be"
     end
   end
 
